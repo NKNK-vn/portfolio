@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.1.1",
+    "@heroicons/react": "^2.1.4",
     "@icons-pack/react-simple-icons": "^9.6.0",
     "classnames": "^2.5.1",
     "prop-types": "^15.8.1",

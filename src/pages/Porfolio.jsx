@@ -6,6 +6,8 @@ import { SiGithub } from '@icons-pack/react-simple-icons'
 import { USER_GITHUB } from '../constant'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import ThemeContext from '../contexts/themeContexts'
+import { Bars3Icon } from '@heroicons/react/24/outline'
+import AboutPage from './AboutPage'
 
 const Porfolio = () => {
     const { isMobile } = useContext(ThemeContext)
@@ -31,9 +33,11 @@ const Porfolio = () => {
     const [isActiveTab, setIsActiveTab] = useState(TABS?.HOME?.tab)
 
     const generatePageContent = () => {
-        let content = 'No Content'
+        let content = 'Updating ...'
         if (isActiveTab === TABS?.HOME?.tab) {
             content = <HomePage />
+        } else if (isActiveTab === TABS?.ABOUT?.tab) {
+            content = <AboutPage />
         }
         return content
     }
@@ -52,8 +56,12 @@ const Porfolio = () => {
                     {isMobile ? (
                         <Menu>
                             <MenuButton>
-                                <Button className={classNames('rounded-xl bg-red-600 py-2 px-4 text-sm text-white')}>
-                                    Menu
+                                <Button
+                                    className={classNames(
+                                        'rounded-xl bg-gradient-to-r from-red-600 to-rose-500 py-2 px-4 text-sm text-white'
+                                    )}
+                                >
+                                    <Bars3Icon className='size-5 text-black' />
                                 </Button>
                             </MenuButton>
                             <MenuItems anchor='bottom end' transition>
@@ -61,7 +69,11 @@ const Porfolio = () => {
                                     <MenuItem key={TABS?.[key]?.tab}>
                                         <Button
                                             className={classNames(
-                                                'my-1 rounded-xl bg-gray-400 py-2 px-4 text-sm text-white group flex w-full items-center'
+                                                'my-1 rounded-xl bg-gray-400 py-2 px-4 text-sm text-white group flex w-full items-center',
+                                                {
+                                                    'bg-gradient-to-r from-red-600 to-rose-500':
+                                                        isActiveTab === TABS?.[key]?.tab
+                                                }
                                             )}
                                             key={key?.title}
                                             onClick={() => setIsActiveTab(TABS?.[key]?.tab)}
@@ -76,8 +88,8 @@ const Porfolio = () => {
                         Object.keys(TABS)?.map((key) => (
                             <Button
                                 className={classNames(
-                                    'mr-2 rounded-xl bg-gray-400 py-2 px-4 text-sm text-white data-[hover]:bg-red-600',
-                                    { 'bg-red-600': isActiveTab === TABS?.[key]?.tab }
+                                    'mr-2 rounded-xl bg-gray-400 py-2 px-4 text-sm text-white data-[hover]:bg-gradient-to-r data-[hover]:from-red-600 data-[hover]:to-rose-500',
+                                    { 'bg-gradient-to-r from-red-600 to-rose-500': isActiveTab === TABS?.[key]?.tab }
                                 )}
                                 key={key?.title}
                                 onClick={() => setIsActiveTab(TABS?.[key]?.tab)}

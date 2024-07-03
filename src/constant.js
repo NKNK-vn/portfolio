@@ -1,0 +1,6 @@
+export const USER_EMAIL = 'khoi.nkn12@gmail.com'
+export const USER_FULL_NAME = 'Nguyễn Khắc Ngọc Khôi'
+export const USER_TITLE = 'Front-End Developer'
+export const USER_FACEBOOK = 'https://www.facebook.com/khoi.nguyenkhacngoc/'
+export const USER_LINKEDIN = 'https://www.linkedin.com/in/khoinkn12/'
+export const USER_GITHUB = 'https://github.com/NKNK-vn'

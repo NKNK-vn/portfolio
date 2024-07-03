@@ -1,7 +1,8 @@
 import './App.css'
+import Porfolio from './pages/Porfolio'
 
 function App() {
-    return <></>
+    return <Porfolio />
 }
 
 export default App

@@ -1,6 +1,6 @@
 import React from 'react'
 import UserAvatar from '../assets/img/avatar.jpeg'
-import data from '../common/data/userData'
+import personalData from '../common/data/userData'
 import { CalendarDaysIcon, DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline'
 import { Button } from '@headlessui/react'
 
@@ -18,45 +18,45 @@ const AboutPage = () => {
                 <div className='md:col-span-3 mt-5 md:mt-0 md:ml-5'>
                     <div>
                         <div className='text-2xl font-semibold'>Who Am I?</div>
-                        <div className='mt-3 text-base'>{data?.objective}</div>
+                        <div className='mt-3 text-base'>{personalData?.objective}</div>
                     </div>
                     <div className='mt-5'>
                         <div className='text-2xl font-semibold'>Personal Info</div>
                         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mt-3'>
                             <div className='flex'>
-                                <Button className='shadow-lg rounded-xl p-3'>
+                                <Button disabled className='shadow-lg rounded-xl p-3'>
                                     <DevicePhoneMobileIcon className='size-6 text-red-600' />
                                 </Button>
                                 <div className='flex flex-col justify-between ml-3'>
                                     <div className='text-sm'>Phone</div>
-                                    <div className='font-medium'>{data?.phoneNumber}</div>
+                                    <div className='font-medium'>{personalData?.phoneNumber}</div>
                                 </div>
                             </div>
                             <div className='flex'>
-                                <Button className='shadow-lg rounded-xl p-3'>
+                                <Button disabled className='shadow-lg rounded-xl p-3'>
                                     <EnvelopeIcon className='size-6 text-cyan-500' />
                                 </Button>
                                 <div className='flex flex-col justify-between ml-3'>
                                     <div className='text-sm'>Email</div>
-                                    <div className='font-medium'>{data?.email}</div>
+                                    <div className='font-medium'>{personalData?.email}</div>
                                 </div>
                             </div>
                             <div className='flex'>
-                                <Button className='shadow-lg rounded-xl p-3'>
+                                <Button disabled className='shadow-lg rounded-xl p-3'>
                                     <MapPinIcon className='size-6 text-rose-500' />
                                 </Button>
                                 <div className='flex flex-col justify-between ml-3'>
                                     <div className='text-sm'>Location</div>
-                                    <div className='font-medium'>{data?.location}</div>
+                                    <div className='font-medium'>{personalData?.location}</div>
                                 </div>
                             </div>
                             <div className='flex'>
-                                <Button className='shadow-lg rounded-xl p-3'>
+                                <Button disabled className='shadow-lg rounded-xl p-3'>
                                     <CalendarDaysIcon className='size-6 text-purple-500' />
                                 </Button>
                                 <div className='flex flex-col justify-between ml-3'>
                                     <div className='text-sm'>Birthday</div>
-                                    <div className='font-medium'>{data?.birthday}</div>
+                                    <div className='font-medium'>{personalData?.birthday}</div>
                                 </div>
                             </div>
                         </div>

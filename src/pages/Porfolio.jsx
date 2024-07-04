@@ -2,13 +2,13 @@ import { Button } from '@headlessui/react'
 import classNames from 'classnames'
 import React, { useContext, useState } from 'react'
 import HomePage from './HomePage'
-import { SiGithub } from '@icons-pack/react-simple-icons'
-import { USER_GITHUB } from '../constant'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import ThemeContext from '../contexts/themeContexts'
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import AboutPage from './AboutPage'
 import Logo from '../assets/img/logo.png'
+import ResumePage from './ResumePage'
+import ContactPage from './ContactPage'
 
 const Porfolio = () => {
     const { isMobile } = useContext(ThemeContext)
@@ -39,6 +39,10 @@ const Porfolio = () => {
             content = <HomePage />
         } else if (isActiveTab === TABS?.ABOUT?.tab) {
             content = <AboutPage />
+        } else if (isActiveTab === TABS?.RESUME?.tab) {
+            content = <ResumePage />
+        } else if (isActiveTab === TABS?.CONTACT?.tab) {
+            content = <ContactPage />
         }
         return content
     }

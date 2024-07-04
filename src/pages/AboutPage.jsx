@@ -18,7 +18,7 @@ const AboutPage = () => {
                 <div className='md:col-span-3 mt-5 md:mt-0 md:ml-5'>
                     <div>
                         <div className='text-2xl font-semibold'>Who Am I?</div>
-                        <div className='mt-3 text-lg'>{data?.objective}</div>
+                        <div className='mt-3 text-base'>{data?.objective}</div>
                     </div>
                     <div className='mt-5'>
                         <div className='text-2xl font-semibold'>Personal Info</div>

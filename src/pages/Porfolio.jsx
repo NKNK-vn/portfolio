@@ -8,6 +8,7 @@ import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import ThemeContext from '../contexts/themeContexts'
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import AboutPage from './AboutPage'
+import Logo from '../assets/img/logo.png'
 
 const Porfolio = () => {
     const { isMobile } = useContext(ThemeContext)
@@ -43,14 +44,9 @@ const Porfolio = () => {
     }
     return (
         <div>
-            <div className='flex justify-between'>
+            <div className='flex justify-between items-center'>
                 <div>
-                    <SiGithub
-                        className='cursor-pointer'
-                        // color='#0766FF'
-                        size={30}
-                        onClick={() => window.open(USER_GITHUB, '_blank')}
-                    />
+                    <img src={Logo} alt='avatar' width={36} />
                 </div>
                 <div>
                     {isMobile ? (

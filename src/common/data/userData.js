@@ -74,7 +74,7 @@ const personalData = {
             conference: 'IJIES',
             paperName: 'LSPD: A Large-Scale Pornographic Dataset for Detection and Classification',
             author: 'Duy Phan, Thien Nguyen, Huy Nguyen, Loc Tran, Khoi Nguyen and Lung Vu',
-            ref: 'https://d1wqtxts1xzle7.cloudfront.net/93763595/LSPD_IJIES-libre.pdf?1667752414=&response-content-disposition=inline%3B+filename%3DLSPD_A_Large_Scale_Pornographic_Dataset.pdf&Expires=1720144041&Signature=GYjxvihoi9RyhRrCB-W3kFACQnb-lU-LBtLalCtxwSoL8tiNbIZTr4VN-Ihq1W6i4V7EyZ3OuMMlyrCkZK0BhdNxU3AVoomcczKLWhsgfcKi01C7qOdUF8cPfltGXLK2-~9hBYoeD7z2SqieOzWLPckXSeCK0UWBwfeLp2qoGq~-s~PYhMFv5mxWn3Ijp8qVGa8FFr2-CGBmUXwQfxyw4I1DcDyPReA7MH6Na8jwLJ-83pMhPa~-7-39nXzYBPR8UfymX9BZQLS0N4F14VfkaZh6tmXnFMTw39RqV-PbqNKg-T24nNLvyiPj3FA~zcxGvWqVr45FsELESpjUOYhscw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA',
+            ref: 'https://www.researchgate.net/publication/358734386_LSPD_A_Large-Scale_Pornographic_Dataset_for_Detection_and_Classification',
             description:
                 'This paper introduces a new dataset named Large-Scale Pornographic Dataset for detection and classification (LSPD) that intends to advance the standard quality of pornographic visual content classification and sexual object detection tasks.'
         },

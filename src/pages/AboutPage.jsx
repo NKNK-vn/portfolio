@@ -1,5 +1,5 @@
 import React from 'react'
-import UserAvatar from '../assets/img/avatar.jpeg'
+import UserAvatar from '../assets/img/avatar.jpg'
 import personalData from '../common/data/userData'
 import { CalendarDaysIcon, DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline'
 import { Button } from '@headlessui/react'

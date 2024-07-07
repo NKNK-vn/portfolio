@@ -90,7 +90,7 @@ const personalData = {
         {
             publishDate: '2020',
             conference: 'FAIR',
-            paperName: 'KHẢO SÁT BÀI TOÁN NHẬN DIỆN PHƯƠNG TIỆN VÀ ĐO TỐC ĐỘ PHƯƠNG TIỆN THAM GIA GIAO THÔNG',
+            paperName: 'Khảo sát bài toán nhận diện phương tiện và đo tốc độ phương tiện tham gia giao thông',
             author: 'Loc Tran, Khoi Nguyen, Duy Phan, Lung Vu',
             ref: 'http://vap.ac.vn/proceedingvap/proceeding/article/view/649',
             description:

@@ -5,7 +5,22 @@ const personalData = {
     location: 'Ho Chi Minh, Vietnam',
     email: 'khoi.nkn12@gmail.com',
     birthday: 'Dec 11, 1997',
-    skills: ['Linux', 'Git', 'React.js', 'Node.js', 'Express.js', 'MongoDB'],
+    skills: [
+        'HTML',
+        'CSS',
+        'React.js',
+        'Redux',
+        'Next.js',
+        'Bootstrap',
+        'Tailwind',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'Redis',
+        'Linux',
+        'Git',
+        'Docker'
+    ],
     education: [
         {
             startTime: 'Sep 2015',
@@ -21,7 +36,7 @@ const personalData = {
             title: 'Front-End Developer',
             organization: 'ProtonX',
             htmlDescription:
-                '<p>Developed an education website to help users create and manage their content and students more efficiently. This website utilizes the MERN stack:</p><ul><li>Designed and improved the user interface for a website that allows teachers to create and manage classes and necessary teaching materials.</li><li>Developed a user-friendly interface for students with features that support the learning process.</li><li>Implemented automated email tools and integrated AI for content creation.</li><li>Designed APIs for CRUD tasks using Express.js and MongoDB.</li><li>Developed an advertising website for courses using Next.js, optimizing it for SEO.</li><li>Deployed the website on Cloudflare.</li></ul><p>Technologies used: React.js, Bootstrap, Redux, Next.js, Node.js, Express.js, MongoDB.</p>'
+                '<p>Developed an education website to help users create and manage their content and students more efficiently. This website utilizes the MERN stack:</p><ul><li>Designed and improved the user interface for a website that allows teachers to create and manage classes and necessary teaching materials.</li><li>Developed a user-friendly interface for students with features that support the learning process.</li><li>Implemented automated email tools and integrated AI for content creation.</li><li>Designed APIs for CRUD tasks using Express.js and MongoDB.</li><li>Developed an advertising website for courses using Next.js, optimizing it for SEO.</li><li>Deployed the website on Google Cloud.</li></ul><p>Technologies used: React.js, Bootstrap, Redux, Next.js, Node.js, Express.js, MongoDB, Redis.</p>'
         },
         {
             startTime: 'Jun 2019',

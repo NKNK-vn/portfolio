@@ -9,7 +9,7 @@ const HomePage = () => {
     return (
         <div>
             <div className='flex justify-center'>
-                <img src={UserAvatar} alt='avatar' className='rounded-full' width={200} />
+                <img src={UserAvatar} alt='avatar' className='rounded-full' width={200} loading='lazy' />
             </div>
             <div className='mt-3 text-2xl font-semibold	'>{USER_FULL_NAME}</div>
             <div className='mt-1 font-light'>{USER_TITLE}</div>

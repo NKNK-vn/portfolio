@@ -13,7 +13,7 @@ const AboutPage = () => {
             </div>
             <div className='my-10 grid md:grid-cols-4 grid-cols-1'>
                 <div className='md:col-span-1'>
-                    <img src={UserAvatar} alt='avatar' className='rounded-md aspect-[3/4]' width={600} />
+                    <img src={UserAvatar} alt='avatar' className='rounded-md aspect-[3/4]' width={600} loading='lazy' />
                 </div>
                 <div className='md:col-span-3 mt-5 md:mt-0 md:ml-5'>
                     <div>

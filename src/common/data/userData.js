@@ -8,6 +8,8 @@ const personalData = {
     skills: [
         'HTML',
         'CSS',
+        'JavaScript',
+        'TypeScript',
         'React.js',
         'Redux',
         'Next.js',

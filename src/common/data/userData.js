@@ -37,23 +37,26 @@ const personalData = {
             endTime: 'Now',
             title: 'Front-End Developer',
             organization: 'Finviet Technology',
-            htmlDescription: '<p>Technologies used: React.js, Tailwind, Ant Design, UmiJS, JSReport.</p>'
+            technologiesUsed: 'React.js, Tailwind, Ant Design, UmiJS, JSReport',
+            htmlDescription: '<p></p>'
         },
         {
             startTime: 'Sep 2022',
             endTime: 'Apr 2024',
             title: 'Front-End Developer',
             organization: 'ProtonX',
+            technologiesUsed: 'React.js, Bootstrap, Redux, Next.js, Node.js, Express.js, MongoDB, Redis',
             htmlDescription:
-                '<p>Developed an education website to help users create and manage their content and students more efficiently. This website utilizes the MERN stack:</p><ul><li>Designed and improved the user interface for a website that allows teachers to create and manage classes and necessary teaching materials.</li><li>Developed a user-friendly interface for students with features that support the learning process.</li><li>Implemented automated email tools and integrated AI for content creation.</li><li>Designed APIs for CRUD tasks using Express.js and MongoDB.</li><li>Developed an advertising website for courses using Next.js, optimizing it for SEO.</li><li>Deployed the website on Google Cloud.</li></ul><p>Technologies used: React.js, Bootstrap, Redux, Next.js, Node.js, Express.js, MongoDB, Redis.</p>'
+                '<p>Developed an education website to help users create and manage their content and students more efficiently. This website utilizes the MERN stack:</p><ul><li>Designed and improved the user interface for a website that allows teachers to create and manage classes and necessary teaching materials.</li><li>Developed a user-friendly interface for students with features that support the learning process.</li><li>Implemented automated email tools and integrated AI for content creation.</li><li>Designed APIs for CRUD tasks using Express.js and MongoDB.</li><li>Developed an advertising website for courses using Next.js, optimizing it for SEO.</li><li>Deployed the website on Google Cloud.</li></ul>'
         },
         {
             startTime: 'Jun 2019',
             endTime: 'Mar 2021',
             title: 'Research Assistant',
             organization: 'The University of Information Technology',
+            technologiesUsed: 'Python, Tensorflow, YOLO',
             htmlDescription:
-                '<p>Sensitive object detection:</p><ul><li>Researched basic and modern neural network architectures and their application.</li><li>Evaluated the performance of object detection models on custom datasets.</li><li>Working on object detection using model YOLO.</li><li>Apply model text and object detection on Chrome Extension.</li></ul><p>Technologies used: Python, Tensorflow, YOLO.</p>'
+                '<p>Sensitive object detection:</p><ul><li>Researched basic and modern neural network architectures and their application.</li><li>Evaluated the performance of object detection models on custom datasets.</li><li>Working on object detection using model YOLO.</li><li>Apply model text and object detection on Chrome Extension.</li></ul>'
         }
     ],
     certification: [

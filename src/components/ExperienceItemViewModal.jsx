@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { CloseButton, Description, Dialog, DialogPanel, DialogTitle } from '@headlessui/react'
-import { BuildingOfficeIcon, ClockIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { BuildingOfficeIcon, ClockIcon, CodeBracketIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const ExperienceItemViewModal = ({ isOpen, setIsOpen, data }) => {
     return (
@@ -16,14 +16,24 @@ const ExperienceItemViewModal = ({ isOpen, setIsOpen, data }) => {
                     <DialogTitle className='font-bold justify-center flex text-xl'>{data?.title}</DialogTitle>
                     <div className='flex flex-col'>
                         <div className='inline-flex gap-2'>
-                            <BuildingOfficeIcon className='size-5 text-rose-500' />
+                            <div>
+                                <BuildingOfficeIcon className='size-5 text-rose-500' />
+                            </div>
                             <span>Company: {data?.organization}</span>
                         </div>
                         <div className='inline-flex gap-2'>
-                            <ClockIcon className='size-5 text-rose-500' />
+                            <div>
+                                <ClockIcon className='size-5 text-rose-500' />
+                            </div>
                             <span>
                                 Time: {data?.startTime} - {data?.endTime}
                             </span>
+                        </div>
+                        <div className='inline-flex gap-2'>
+                            <div>
+                                <CodeBracketIcon className='size-5 text-rose-500' />
+                            </div>
+                            <span>Technologies used: {data?.technologiesUsed}</span>
                         </div>
                     </div>
                     <Description>
@@ -47,6 +57,7 @@ ExperienceItemViewModal.propTypes = {
         title: PropTypes.string.isRequired,
         organization: PropTypes.string.isRequired,
         ref: PropTypes.string,
+        technologiesUsed: PropTypes.string,
         htmlDescription: PropTypes.string
     }).isRequired,
     setIsOpen: PropTypes.func.isRequired,

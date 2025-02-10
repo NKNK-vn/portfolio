@@ -33,6 +33,13 @@ const personalData = {
     ],
     workExperience: [
         {
+            startTime: 'Oct 2024',
+            endTime: 'Now',
+            title: 'Front-End Developer',
+            organization: 'Finviet Technology',
+            htmlDescription: ''
+        },
+        {
             startTime: 'Sep 2022',
             endTime: 'Apr 2024',
             title: 'Front-End Developer',

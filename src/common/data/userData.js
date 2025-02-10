@@ -37,7 +37,7 @@ const personalData = {
             endTime: 'Now',
             title: 'Front-End Developer',
             organization: 'Finviet Technology',
-            htmlDescription: ''
+            htmlDescription: '<p>Technologies used: React.js, Tailwind, Ant Design, UmiJS, JSReport.</p>'
         },
         {
             startTime: 'Sep 2022',

@@ -1,6 +1,6 @@
 const personalData = {
     objective:
-        'I am an experienced front-end developer with 1.5 years of industry experience, demonstrating the ability to create intuitive user interfaces. Familiar with front-end development concepts, I am a goal-driven individual seeking opportunities to work in a professional environment and expand my knowledge and skills. I aspire to transition into a full-stack developer role.',
+        'I am an experienced front-end developer with 2 years of industry experience, demonstrating the ability to create intuitive user interfaces. Familiar with front-end development concepts, I am a goal-driven individual seeking opportunities to work in a professional environment and expand my knowledge and skills. I aspire to transition into a full-stack developer role.',
     phoneNumber: '+84 384111265',
     location: 'Ho Chi Minh, Vietnam',
     email: 'khoi.nkn12@gmail.com',

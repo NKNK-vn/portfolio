@@ -7,7 +7,7 @@ const ExperienceItemViewModal = ({ isOpen, setIsOpen, data }) => {
     return (
         <Dialog open={isOpen} onClose={() => setIsOpen(false)} className='relative z-50'>
             <div className='fixed inset-0 flex w-screen items-center justify-center'>
-                <DialogPanel className='max-w-lg space-y-4 border bg-white px-8 py-5'>
+                <DialogPanel className='rounded-2xl max-w-lg space-y-4 border bg-white px-8 py-5'>
                     <div className='flex justify-end'>
                         <CloseButton className='flex items-center justify-center'>
                             <XMarkIcon className='size-8' />

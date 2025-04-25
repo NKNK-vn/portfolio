@@ -15,6 +15,7 @@ const personalData = {
         'Next.js',
         'Bootstrap',
         'Tailwind',
+        'Ant Design',
         'Node.js',
         'Express.js',
         'MongoDB',
@@ -37,8 +38,9 @@ const personalData = {
             endTime: 'Now',
             title: 'Front-End Developer',
             organization: 'Finviet Technology',
-            technologiesUsed: 'React.js, Tailwind, Ant Design, UmiJS, JSReport',
-            htmlDescription: '<p></p>'
+            technologiesUsed: 'TypeScript, React.js, Tailwind, Ant Design, UmiJS, JSReport',
+            htmlDescription:
+                '<p>I developed a DMS (Distribution Management System) portal at Finviet to support management and sales operations. Key features include:</p><ul><li>Built and optimized a user interface using Ant Design Pro for a smooth and consistent user experience.</li><li>Used UmiJS for global state management and API handling, improving code structure and maintainability.</li><li>Integrated JSReport to export data to Excel files, enhancing reporting capabilities for users.</li><li>Implemented interactive map features with React Google Maps API to visualize customer locations and delivery routes.</li><li>Focused on frontend development while collaborating with backend teams to deliver a responsive and efficient system.</li></ul>'
         },
         {
             startTime: 'Sep 2022',

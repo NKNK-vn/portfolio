@@ -1,8 +1,8 @@
 import React from 'react'
 import UserAvatar from '../assets/img/avatar.jpeg'
 import UserResume from '../assets/pdf/resume.pdf'
-import { USER_FACEBOOK, USER_FULL_NAME, USER_LINKEDIN, USER_TITLE, USER_GITHUB } from '../constant'
-import { SiFacebook, SiLinkedin, SiGithub } from '@icons-pack/react-simple-icons'
+import { USER_FACEBOOK, USER_FULL_NAME, USER_LINKEDIN, USER_TITLE, USER_GITHUB, USER_GOOGLE_SCHOLAR } from '../constant'
+import { SiFacebook, SiLinkedin, SiGithub, SiGooglescholar } from '@icons-pack/react-simple-icons'
 import { Button } from '@headlessui/react'
 
 const HomePage = () => {
@@ -27,6 +27,12 @@ const HomePage = () => {
                     onClick={() => window.open(USER_LINKEDIN, '_blank')}
                 />
                 <SiGithub className='cursor-pointer' size={30} onClick={() => window.open(USER_GITHUB, '_blank')} />
+                <SiGooglescholar
+                    className='cursor-pointer'
+                    size={30}
+                    color='#4285F4'
+                    onClick={() => window.open(USER_GOOGLE_SCHOLAR, '_blank')}
+                />
             </div>
             <div className='mt-5'>
                 <Button className='px-4 py-2 rounded-3xl text-white bg-gradient-to-r from-red-600 to-rose-500 data-[hover]:translate-y-1'>

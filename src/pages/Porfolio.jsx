@@ -49,9 +49,9 @@ const Porfolio = () => {
     return (
         <div>
             <div className='flex justify-between items-center'>
-                <div>
+                <Button className='cursor-pointer' onClick={() => window.open(window.location.href, '_self')}>
                     <img src={Logo} alt='avatar' width={36} />
-                </div>
+                </Button>
                 <div>
                     {isMobile ? (
                         <Menu>

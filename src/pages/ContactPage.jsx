@@ -12,7 +12,7 @@ const ContactPage = () => {
             </div>
             <div className='my-10 grid md:grid-cols-3 grid-cols-1 gap-4'>
                 <div className='col-span-1'>
-                    <Button disabled className='w-full bg-rose-50 p-5 rounded-xl text-start'>
+                    <Button disabled className='w-full bg-rose-50 p-5 rounded-xl text-start h-full'>
                         <div className='inline-flex justify-items-start items-start gap-3'>
                             <PhoneIcon className='size-10 text-blue-400' />
                             <div className='text-lg'>
@@ -25,7 +25,7 @@ const ContactPage = () => {
                     </Button>
                 </div>
                 <div className='col-span-1'>
-                    <Button disabled className='w-full bg-rose-50 p-5 rounded-xl text-start'>
+                    <Button disabled className='w-full bg-rose-50 p-5 rounded-xl text-start h-full'>
                         <div className='inline-flex justify-items-start items-start gap-3'>
                             <EnvelopeOpenIcon className='size-10 text-yellow-400' />
                             <div className='text-lg'>
@@ -43,7 +43,7 @@ const ContactPage = () => {
                     </Button>
                 </div>
                 <div className='col-span-1'>
-                    <Button disabled className='w-full bg-rose-50 p-5 rounded-xl text-start'>
+                    <Button disabled className='w-full bg-rose-50 p-5 rounded-xl text-start h-full'>
                         <div className='inline-flex justify-items-start items-start gap-3'>
                             <MapPinIcon className='size-10 text-green-400' />
                             <div className='text-lg'>

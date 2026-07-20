@@ -28,8 +28,8 @@ const personalData = {
     ],
     education: [
         {
-            startTime: 'Sep 2015',
-            endTime: 'Jun 2021',
+            startTime: '2015',
+            endTime: '2020',
             title: 'Computer Engineering',
             organization: 'The University of Information Technology'
         }
@@ -40,9 +40,10 @@ const personalData = {
             endTime: 'Now',
             title: 'Front-End Developer',
             organization: 'Finviet Technology',
-            technologiesUsed: 'TypeScript, React.js, Tailwind, Ant Design, UmiJS, JSReport, Jest',
+            technologiesUsed:
+                'TypeScript, React.js, NestJS, MongoDB, Redis, Tailwind, UmiJS, Ant Design Pro, JSReport, Jest, React Testing Library',
             htmlDescription:
-                '<p>I developed a DMS (Distribution Management System) portal at Finviet to support management and sales operations. Key features include:</p><ul><li>Built and optimized a user interface using Ant Design Pro for a smooth and consistent user experience.</li><li>Used UmiJS for global state management and API handling, improving code structure and maintainability.</li><li>Integrated JSReport to export data to Excel files, enhancing reporting capabilities for users.</li><li>Implemented interactive map features with React Google Maps API to visualize customer locations and delivery routes.</li><li>Wrote unit and integration tests using Jest and React Testing Library to ensure component reliability and maintain high test coverage.</li><li>Focused on frontend development while collaborating with backend teams to deliver a responsive and efficient system.</li></ul>'
+                '<p>I developed a DMS (Distribution Management System) portal at Finviet to support management and sales operations. Key features include:</p><ul><li>Built and optimized dashboard UI with Ant Design Pro, covering multiple modules for sales and distribution management (orders, customers, reporting...).</li><li>Used UmiJS for global state management and API handling across thedashboard, improving code structure and maintainability.</li><li>Integrated JSReport to export data to Excel files, enhancing reporting capabilities for users.</li><li>Implemented interactive map features with React Google Maps API to visualize customer locations and delivery routes.</li><li>Contributed backend REST endpoints (NestJS, MongoDB), including Redis caching to reduce redundant database queries on frequently accessed dashboard data.</li><li>Wrote unit and integration tests (Jest, React Testing Library) to ensure component reliability across core modules.</li></ul>'
         },
         {
             startTime: 'Sep 2022',

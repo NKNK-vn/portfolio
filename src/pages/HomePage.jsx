@@ -36,7 +36,7 @@ const HomePage = () => {
             </div>
             <div className='mt-5'>
                 <Button className='px-4 py-2 rounded-3xl text-white bg-gradient-to-r from-red-600 to-rose-500 data-[hover]:translate-y-1'>
-                    <a download='khoi_cv.pdf' href={UserResume}>
+                    <a download='Nguyen_Khac_Ngoc_Khoi_CV.pdf' href={UserResume}>
                         Download CV
                     </a>
                 </Button>
